@@ -1,21 +1,16 @@
 {
   "name": "express-template",
   "description": "This is a template for me to quickly spin-up a Express backend",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsx watch ./src/app.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://https://github.com/henrylin03/expressjs-template"
   },
-  "keywords": [
-    "template",
-    "expressjs template",
-    "prisma orm template",
-    "prisma orm and postgres template",
-  ],
-  "author": "henrylin03",
+  "author": "Henry Lin",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
