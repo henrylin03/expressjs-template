@@ -6,10 +6,15 @@
     "build": "tsc && tsc-alias",
     "dev": "tsx watch ./src/app.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/henrylin03/expressjs-template"
+  },
   "author": "Henry Lin",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^25.6.0",
     "@types/pg": "^8.20.0",
     "prisma": "^7.7.0",
@@ -18,10 +23,10 @@
     "typescript": "^6.0.2"
   },
   "dependencies": {
+    "express": "^5.2.1",
     "@prisma/adapter-pg": "^7.7.0",
     "@prisma/client": "^7.7.0",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1",
     "pg": "^8.20.0"
   }
 }
