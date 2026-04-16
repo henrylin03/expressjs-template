@@ -3,7 +3,7 @@
   "description": "This is a template for me to quickly spin-up a Express backend",
   "main": "app.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && tsc-alias",
     "dev": "tsx watch ./src/app.ts"
   },
   "author": "Henry Lin",
@@ -13,6 +13,7 @@
     "@types/node": "^25.6.0",
     "@types/pg": "^8.20.0",
     "prisma": "^7.7.0",
+    "tsc-alias": "^1.8.16",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2"
   },
@@ -20,6 +21,7 @@
     "@prisma/adapter-pg": "^7.7.0",
     "@prisma/client": "^7.7.0",
     "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "pg": "^8.20.0"
   }
 }
